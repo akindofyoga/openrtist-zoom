@@ -8,4 +8,6 @@ python3 main.py HOST STYLE
 ```
 
 You can see a list of styles
-[here](https://github.com/cmusatyalab/openrtist/tree/master/models)
+[here](https://github.com/cmusatyalab/openrtist/tree/master/models).
+The STYLE argument should be the name of a txt file in that directory, 
+without the extension (such as `mosaic`).
