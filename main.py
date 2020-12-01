@@ -43,6 +43,7 @@ def main():
     def consume_frame(frame, packed_extras):
         # extras = openrtist_pb2.Extras()
         # packed_extras.Unpack(extras)
+        frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
         fake_webcam.schedule_frame(frame)
 
     opencv_adapter = OpencvAdapter(
